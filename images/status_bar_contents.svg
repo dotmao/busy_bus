@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="119px" height="14px" viewBox="0 0 119 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>status bar contents</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-454.000000, -116.000000)">
+            <g id="app-bar-+-status-bar" transform="translate(222.000000, 111.000000)">
+                <g id="status-bar">
+                    <g id="status-bar-contents" transform="translate(231.000000, 4.000000)">
+                        <g id="time" opacity="0.9" transform="translate(60.000000, 0.000000)" font-size="14" font-family="Roboto-Medium, Roboto" fill="#FFFFFF" font-weight="400">
+                            <text id="12:30-PM">
+                                <tspan x="0.768554688" y="13">12:30 </tspan>
+                                <tspan x="39.7949219" y="13">PM</tspan>
+                            </text>
+                        </g>
+                        <g id="battery" transform="translate(44.000000, 0.000000)">
+                            <polygon id="bounds" points="1 0 17 0 17 16 1 16"></polygon>
+                            <polygon id="Shape" fill="#FFFFFF" points="6 1.875 6 1 3 1 3 1.875 0 1.875 0 15 9 15 9 1.875"></polygon>
+                        </g>
+                        <g id="cellular" transform="translate(21.000000, 0.000000)">
+                            <polygon id="bounds" points="0 0 16 0 16 16 0 16"></polygon>
+                            <polygon id="Shape" fill="#FFFFFF" points="0 15 14 15 14 1"></polygon>
+                        </g>
+                        <g id="wifi">
+                            <polygon id="bounds" points="2 0 18 0 18 16 2 16"></polygon>
+                            <path d="M0.977372085,4.01593123 C3.48821908,2.12256382 6.61301513,1 10,1 C13.3869849,1 16.5117809,2.12256382 19.0226279,4.01593123 L10,15 L0.977372085,4.01593123 Z" id="Shape" fill="#FFFFFF"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
