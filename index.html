@@ -22,130 +22,108 @@
           <i class="fa fa-star-o" aria-hidden="true" id="icon2"></i>
         </div>
           <div class="list-table">
-            <ul>
-              <li>
-                <span>Lines</span>
-                <span>Destination</span>
-                <span>Frequency</span>
-              </li>
+            <ul class="list-table-content">
+                <li class="right">Line</li>
+                <li class="middle">Destination</li>
+                <li class="left">Frequency</li>
             </ul>
           </div>
 
-        <section class="lines">
+        <section class="routes">
 
           <!-- line-60-->
-            <div>
+            <div class="lines">
               <ul>
-                <li>
-                  <span class="line">60</span>
-                  <span class="destination">Randolph/Harbor Dr</span>
-                  <span class="frequency">20</span>
-                </li>
+                  <li class="line">60</li>
+                  <li class="destination">Randolph/Harbor Dr</li>
+                  <li class="frequency" id="spacing-20">20</li>
               </ul>
               <ul>
-                <li>
-                  <span class="eastbound">East Bound</span>
-                  <span class="unit">min</span>
-                </li>
+                  <li class="bound">East</li>
+                  <li class="unit">min</li>
               </ul>
             </div>
 
           <!-- line124 -->
-            <div>
+            <div class="lines">
               <ul>
-                <li>
-                  <span class="line">124</span>
-                  <span class="destination">Navy Pier</span>
-                  <span class="frequency">10</span>
-                <li>
+                  <li class="line">124</li>
+                  <li class="destination">Navy Pier</li>
+                  <li class="frequency">10</li>
               </ul>
               <ul>
-                <li>
-                  <span class="bound">East Bound</span>
-                  <span class="unit">min</span>
-                <li>
+                  <li class="bound">East</li>
+                  <li class="unit">min</li>
               </ul>
             </div>
+
           <!-- line151 -->
-            <div>
+            <div class="lines">
               <ul>
-                <li>
-                  <span class="line">151</span>
-                  <span class="destination">Denvon/Clark</span>
-                  <span class="frequency">10</span>
-                </li>
-                  <ul>
-                    <li>
-                      <span class="bound">North Bound</span>
-                      <span class="unit">min</span>
-                    </li>
-                  </ul>
-                </div>
+                  <li class="line">151</li>
+                  <li class="destination">Denvon/Clark</li>
+                  <li class="frequency">10</li>
+              </ul>
+              <ul>
+                  <li class="bound">North</li>
+                  <li class="unit">min</li>
+              </ul>
+            </div>
 
             <!-- lineJ14 -->
-            <div class="line-J14">
+            <div class="lines">
               <ul>
-                <li>
-                  <span class="line">J14</span>
-                  <span class="destination">103rd/Stony Island</span>
-                  <span class="frequency">16</span>
-                  </li>
-                </ul>
+                  <li class="line">J14</li>
+                  <li class="destination">103rd/Stony Island</li>
+                  <li class="frequency">16</li>
+              </ul>
                 <ul>
-                  <li>
-                    <span class="bound">Sorth Bound</span>
-                    <span class="unit">min</span>
-                  </li>
+                    <li class="bound">South</li>
+                    <li class="unit">min</li>
                 </ul>
               </div>
 
             <!-- line 124 -->
-            <div>
+            <div class="lines">
               <ul>
-                <li>
-                  <span class="line">124</span>
-                  <span class="destination">Navy Pier</span>
-                  <span class="frequency">16</span>
-                  </li>
-                </ul>
+                  <li class="line">124</li>
+                  <li class="destination">Navy Pier</li>
+                  <li class="frequency">16</li>
+              </ul>
                 <ul>
-                  <li>
-                    <span class="bound">Sorth Bound</span>
-                    <span class="unit">min</span>
-                  </li>
+                    <li class="bound">South</li>
+                    <li class="unit">min</li>
                 </ul>
             </div>
 
           <!-- abnormal reroutes -->
             <div class="reroute">
-              <i class="fa fa-exclamation-circle" aria-hidden="true">Reroute</i>
+              <i class="fa fa-exclamation-circle" aria-hidden="true" id="icon3"></i>
+              <h3 class="abnormal-service">Reroute</h3>
             </div>
 
             <!-- line 6X -->
-            <div>
+            <div class="abnormal-routes">
               <ul>
-                <li class="abnormal-routes">
-                  <span class="line">6X</span>
-                  <span class="destination">Cottage Grove</span>
-                  <span class="frequency">N/A</span>
-                  </span>
-                  </li>
+                  <li class="line">6X</li>
+                  <li class="destination">Jackson Park Express</li>
+                  <li class="frequency">N/A</li>
                 </ul>
             </div>
 
 
             <div class="outofservice">
-              <i class="fa fa-times-circle" aria-hidden="true">Out of Service</i>
+              <i class="fa fa-times-circle" aria-hidden="true" id="icon4"></i>
+              <h3 class="abnormal-service">Out of Service</h3>
             </div>
 
             <!-- line 4 -->
             <div>
               <ul class="abnormal-routes">
-                  <li class="line">6X</li>
+                  <li class="line">4</li>
                   <li class="destination">Cottage Grove</li>
                   <li class="resumes">Resumes</li>
-                  <li class="time">12:10am</li>
-                  </span>
+                <ul class="time">12:10am</ul>
               </ul>
             </div>
 
@@ -156,7 +134,6 @@
                   <li class="destination">Madison</li>
                   <li class="resumes">Resumes</li>
                   <li class="time">12:10am</li>
-                  </span>
               </ul>
             </div>
 
