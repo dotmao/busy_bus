@@ -2,10 +2,11 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: #333;
-  font-family: sans-serif;
-  font-size: 10px;
+
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #333; }
 }
 
 
@@ -21,14 +22,23 @@ body {
   background-color: #009688;
   margin: 0 auto;
   position: relative;
+  overflow: scroll;
 }
 
+/* try to hide the scrollbar but they are still showing */
+.android-container::-webkit-scrollbar {
+  display: none; }
+
+
+/* this element doesn't seem to apply any style */
 .android-top-icons {
-  width: 360px;
+  width: 100%;
   height: 24px;
-  background-color: #000000;
+  background-color: #607d8b; opacity: 54%;
+  padding: 5px;
   position: fixed;
   z-index: 1000;
+  float: right;
 }
 
 .status-bar {
@@ -42,6 +52,7 @@ body {
   height: 56px;
   margin-top: 24px;
   position: fixed;
+  background-color: #607d8b;
 }
 
 .stop {
@@ -51,6 +62,7 @@ body {
   font-size: 20px;
   font-weight: 500;
   color: #ffffff;
+  position:relative;
 
 }
 
@@ -71,33 +83,132 @@ body {
 
 .list-table {
   width: 360px;
+  height: 48px;
   margin-top: 80px;
   background-color: #ffffff;
+  margin-right: 16px;
 }
 
+.right {
+  margin-left: 16px;
+  margin-top: 16px;
+}
+
+.middle {
+  margin-top: 16px;
+  padding-left: 24px;
+}
+
+.left {
+  margin-right:16px;
+  padding-left: 88px;
+}
+
+
+.list-table-content {
+  margin-top: 16px
+}
+
+.list-table li {
+    display: inline-block;
+    font-weight: 500;
+}
+
+.line {
+  margin-left: 16px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+
+/* the border style doesn't seem to work currently */
+.lines {
+  height: 72px;
+  border-bottom: 1px;
+  border-color: #545454;
+  margin-top: 16px;
+}
+
+.lines li {
+  display: inline-block;
+}
+
+.destination {
+  padding-left: 56px;
+  font-size: 14px;
+  color: #ffffff;
+
+}
+
+.frequency {
+  margin-right: 16px;
+  display: inline-block;
+  color: #ffffff;
+}
+
+/* after adding either padding or margin this element end up in a different line */
+.unit {
+  margin-right: 16px;
+  color: #ffffff;
+}
+
+
+
+.bound {
+  margin-left: 16px;
+  margin-top: 4px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.abnormal-routes {
+  display: inline-block;
+}
+
+
+.resumes {
+  padding-left: : 318px;
+  color: #ffffff;
+
+}
+
+.time {
+  color: #ffffff;
+
+}
+
+
+
+#icon3 {
+  margin-left: 16px;
+  color: #FFC107;
+  font-size: 24px;
+  text-shadow: 0px 2px 5px grey;
+  display: inline-block;
+}
+
+#icon4 {
+  margin-left: 16px;
+  color: #FF5252;
+  font-size: 24px;
+  text-shadow: 0px 2px 5px grey;
+  display: inline-block;
+}
+
+.abnormal-service {
+  margin-left: 16px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  display: inline-block;
+}
 
 
 .bottom-nav-icons {
   padding-top: 16px;
 }
-
-
-.back {
-  margin-left: 66px;
-  cursor: pointer; }
-
-
-
-.home {
-  margin-left: 85px;
-  margin-right: 85px;
-  cursor: pointer;
-}
-
-.recent {
-    cursor: pointer;
-   }
-
 
 .bottom-nav {
      width: 360px;
@@ -107,3 +218,20 @@ body {
      left: 0;
      margin: 0 auto;
    }
+
+   .back {
+     margin-left: 66px;
+     cursor: pointer;
+   }
+
+
+
+   .home {
+     margin-left: 85px;
+     margin-right: 85px;
+     cursor: pointer;
+   }
+
+   .recent {
+       cursor: pointer;
+      }
