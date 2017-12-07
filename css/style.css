@@ -124,8 +124,19 @@
   font-weight: 500;
 }
 
+.lines-60 {
+  height: 56px;
+  margin-top: 16px;
+  padding-top: 4px;
 
-/* the border style doesn't seem to work currently */
+}
+
+.lines-60 li {
+  display: inline-block;
+}
+
+
+
 .lines {
   height: 56px;
   margin-top: 16px;
@@ -161,7 +172,6 @@
   float: right;
 }
 
-/* after adding either padding or margin this element end up in a different line */
 .unit {
   margin-right: 16px;
   color: #ffffff;
@@ -199,7 +209,6 @@
 }
 
 
-/* this section seems to be a bit messed up, elements aren't lining up */
 
 .line-6X {
   padding-bottom: 16px;
